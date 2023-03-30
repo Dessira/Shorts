@@ -1,0 +1,206 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.signup-main{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.signup{
+  margin-top: 40px;
+  width: 60%;
+  max-width: 500px;
+  border: solid 1px rgba(237, 222, 14, 0.835);
+  border-radius: 15px;
+  padding: 20px 0px;
+  margin: auto;
+}
+.signup-image img{
+  width: 100%;
+  object-fit: contain;
+}
+.signup form{
+  width: 100%;
+  display: flex;
+  padding: 0;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+.signup form i{
+  margin-left: -30px;
+  margin-right: 15px;
+}
+.signup form div{
+  width: 100%;
+}
+.signup form input {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #888;
+  border-radius: 10px;
+}
+.imgdiv{
+  border: 1px solid yellow;
+}
+.signin-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.signin-container form{
+  border: 1px solid yellow;
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  width: 80%;
+  margin: auto;
+  border-radius: 15px;
+  padding: 20px;
+}
+.signin-container form input {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #888;
+  border-radius: 10px;
+  margin: 15px;
+}
+.signin-container img{
+  width: 100%;
+  object-fit: contain;
+}
+.signin-btn{
+  margin: auto;
+  width: 150px;
+}
+.short{
+  width: 400px;
+  border: solid 0.5px cornflowerblue;
+  padding: 20px;
+  display: flex;
+  margin-bottom: 15px;
+}
+.shorts{
+  margin: auto;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.fa-solid{
+  color: pink;
+}
+.fullshort{
+  width: 60%;
+  height: fit-content;
+  padding: 20px;
+  margin: auto;
+  font-size: 20px;
+  background-color: bisque;
+}
+.short-name{
+  font-size: 30px;
+  font-weight: 700;
+  border: solid 1px blue;
+  max-width: 400px;
+  margin: auto;
+}
+.short-logo{
+  color: blue;
+}
+.short-img{
+  width: 200px;
+  height: 200px;
+  border: solid 1px blue;
+}
+.second-img{
+  margin-left: 85%;
+}
+.profile-pic{
+  width: 300px;
+  max-width: 700px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: aqua;
+  margin: auto;
+}
+
+.profile-pic img {
+  width: 100%;
+}
+.profile-content{
+  border: solid 1.5px aliceblue; 
+  width: fit-content;
+  max-width: 600px;
+  padding: 15px;
+  margin: auto;
+  gap: 8px;
+  border-radius: 20px;
+}
+.profile-email{
+  display: flex;
+  justify-content: space-between;
+  border: solid 1.5px aliceblue;
+  border-radius: 10px;
+  align-items: center;
+  max-width: 300px;
+  margin: auto;
+  padding: 20px;
+}
+.bio-content{
+  margin-top: 20px;
+}
+.create{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  max-width: 700px;
+  margin: auto;
+  padding: 20px;
+}
+.create textarea{
+  width: 100%;
+  height: 500px;
+  padding: 10px;
+  margin-top: 10px;
+}
+.name{
+  padding: 10px;
+  border-radius: 7px;
+  width: 50%;
+  min-width: 200px;
+  margin: auto;
+}
+.setting{
+  background-color: aliceblue;
+  height: 100vh;
+  margin: auto;
+  border: #888;
+}
+.setting div{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+@media screen and (max-width: 500px) {
+  .signup {
+    min-width: 100%;
+  }
+  .signup-image img{
+    width:70%;
+  }
+  .imgdiv{
+    width: 50%;
+    border-radius: 50%;
+    
+  }
+}
